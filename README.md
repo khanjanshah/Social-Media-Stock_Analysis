@@ -1,1 +1,1 @@
-# Social-Media-Stock_Analysis
+# Social-Media-Stock-Analysis
