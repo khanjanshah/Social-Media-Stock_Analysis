@@ -1,0 +1,14 @@
+{%extends "layout.html"%}
+{%block content%}
+<html>
+<body>
+<!--    <img src="/static/jiostock.jpg">-->
+<!--<button class="btn"><span>Analysis</span></button>-->
+<ul class="list">
+    <li><a href="{{ url_for('analysis') }}" class="btn" type="button"><span>Analysis</span></a>"</li>
+    <li><a href="{{ url_for('prediction') }}" class="butt" type="button"><span>Prediction</span></a>"</li>
+    <li><a href="{{ url_for('visualize') }}" class="but" type="button"><span>visualization</span></a>"</li>
+</ul>
+</body>
+</html>
+{%endblock%}
